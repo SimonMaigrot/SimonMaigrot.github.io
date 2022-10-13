@@ -4,24 +4,24 @@ body {
     font-family: helvetica;
 }
 
+section {
+    background: url("assets/sable1.webp");
+    background-size: cover;
+    height: 100vh;
+}
+
 /* Header */
 header {
     display: flex;
     list-style: none;
     align-items: center;
-    background-color: white;
+    background-color: png;
 }
 
-#logo {
+header #logo {
     position: relative;
     width: 100px;
     height: auto;
-}
-
-section {
-    background: url("assets/bakground.jpg");
-    background-size: cover;
-    height: 100vh;
 }
 
 img {
@@ -40,11 +40,11 @@ nav {
 nav li {
     color: green;
     display: inline;
-    padding-left: 30px;
-
+    padding-left: 60px;
 }
+
 a{
-    color: green;
+    color: rgb(144, 144, 26);
     text-decoration: none;
 
 }
