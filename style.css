@@ -49,20 +49,36 @@ nav {
 nav li {
     position: relative;
     color: green;
-    display: inline;
+    display: block;
     padding-left: 60px;
     left: 250px;
     font-weight: 500;
     font-size: 1.5em;
 }
 
-a{
-    color: blanchedalmond;
-    text-decoration: none;
-
+a {
+    display: block;
+    margin: 10px auto 0;
+    font-size: 25px;
+    color:rgb(144, 124, 23);
+    padding: 25px 10px;
+    background:#ffd17b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #efa424;
 }
+
 a:hover{
-    text-decoration: underline;
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+
+a:active {
+    box-shadow: 0 0 #efa424;
+    top: 6px;
 }
 
 /* div */
