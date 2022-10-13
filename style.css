@@ -39,7 +39,7 @@ header h1 {
     left: 120px;
 }
 
-/* Menu de navigation */
+/* Nav */
 
 nav {
     display: flex;
@@ -48,15 +48,14 @@ nav {
 
 nav li {
     position: relative;
-    color: green;
     display: block;
     padding-left: 60px;
     left: 250px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5em;
 }
 
-a {
+nav a {
     display: block;
     margin: 10px auto 0;
     font-size: 25px;
@@ -69,6 +68,7 @@ a {
     border-radius: 20px;
     position: relative;
     box-shadow: 0 6px #efa424;
+    text-decoration: none;
 }
 
 a:hover{
