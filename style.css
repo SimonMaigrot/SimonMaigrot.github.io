@@ -24,10 +24,18 @@ header #logo {
     height: auto;
 }
 
-img {
+header #plantes {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+header h1 {
+    position: absolute;
+    color:chocolate;
+    font-size: 2.5em;
+    font-weight: bold;
+    left: 120px;
 }
 
 /* Menu de navigation */
@@ -38,13 +46,16 @@ nav {
 }
 
 nav li {
+    position: relative;
     color: green;
     display: inline;
     padding-left: 60px;
+    left: 200px;
+    font-size: 1.5em;
 }
 
 a{
-    color: rgb(144, 144, 26);
+    color: blanchedalmond;
     text-decoration: none;
 
 }
@@ -61,11 +72,4 @@ div img {
     height: 400px;
     width: 400px;
     object-fit: cover;
-}
-
-div h1 {
-    position: relative;
-    left: 100px;
-    top: 40px;
-    display: inline;
 }
