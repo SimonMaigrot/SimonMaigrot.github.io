@@ -11,6 +11,7 @@ section {
 }
 
 /* Header */
+
 header {
     display: flex;
     list-style: none;
@@ -34,7 +35,7 @@ header h1 {
     position: absolute;
     color:chocolate;
     font-size: 2.5em;
-    font-weight: bold;
+    font-weight: 900;
     left: 120px;
 }
 
@@ -50,7 +51,8 @@ nav li {
     color: green;
     display: inline;
     padding-left: 60px;
-    left: 200px;
+    left: 250px;
+    font-weight: 500;
     font-size: 1.5em;
 }
 
