@@ -1,13 +1,12 @@
-
 body {
     margin:0 auto;
     font-family: helvetica;
 }
 
 section {
-    background: url("assets/sable1.webp");
+    background: url("assets/background_projet.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 400vh;
 }
 
 /* Header */
@@ -79,4 +78,39 @@ a:hover{
 a:active {
     box-shadow: 0 0 #efa424;
     top: 6px;
+}
+
+/* div */
+
+.chicken {
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    height: auto;
+    top: 100px;
+}
+
+div h1 {
+    position: relative;
+    color: white;
+    top: -215px;
+    left: 50px;
+    font-size: 2.5em;
+    font-weight: 1000;
+}
+
+div h2 {
+    position: relative;
+    top: -800px;
+    left: 600px;
+    color: white;
+    font-size: 2em;
+}
+.gif {
+    position: relative;
+    top: -600px;
+    left: 50px;
+    width: 300px;
+    height: auto;
 }
