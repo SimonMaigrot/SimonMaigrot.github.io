@@ -1,0 +1,125 @@
+body {
+    margin:0 auto;
+    font-family: helvetica;
+}
+
+section {
+    background: url("assets/background_profil.jpg");
+    background-size: cover;
+    height: 400vh; /* Viewport height */
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: png;
+}
+
+header #logo {
+    position: relative;
+    width: 100px;
+    height: auto;
+}
+
+header #plantes {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+header h1 {
+    position: absolute;
+    color:chocolate;
+    font-size: 2.5em;
+    font-weight: 900;
+    left: 120px;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    position: relative;
+    display: block;
+    padding-left: 60px;
+    left: 250px;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+nav a {
+    position: relative;
+    display: block;
+    margin: 10px auto 0;
+    font-size: 25px;
+    color:rgb(144, 124, 23);
+    padding: 25px 10px;
+    background:#ffd17b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 6px #efa424;
+    text-decoration: none;
+}
+
+a:hover{
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+
+a:active {
+    box-shadow: 0 0 #efa424;
+    top: 6px;
+}
+
+/* div visage */
+
+.rectangle {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(86, 145, 173, 0.283);
+    left: 130px;
+    top: 650px;
+}
+
+.visage {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+div h1 {
+    position: absolute;
+    color: rgb(102, 100, 173);
+    font-size: 30px;
+    left: 500px;
+    top: 120px;
+}
+
+div h2 {
+    position: absolute;
+    color: rgb(102, 100, 173);
+    font-size: 30px;
+    left: 500px;
+    top: 300px;
+    text-decoration: underline;
+}
+
+div h3 {
+    position: absolute;
+    color: rgb(102, 100, 173);
+    font-size: 30px;
+    left: 500px;
+    top: 370px;
+}
