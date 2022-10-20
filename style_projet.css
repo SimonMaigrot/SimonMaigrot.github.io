@@ -6,7 +6,7 @@ body {
 section {
     background: url("assets/background_projet.jpg");
     background-size: cover;
-    height: 400vh;
+    height: 500vh;
 }
 
 /* Header */
@@ -121,17 +121,35 @@ a:active {
 
 /* Animation */
 
-div .pong:hover {
-    box-shadow: 0 0px;
-    top: 250px;
-}
-
+/* chicken */
 div .chicken:hover {
     box-shadow: 0 0px;
     top: 200px;
 }
 
+div .chicken:active {
+    box-shadow: 0 0 #efa424;
+    top: 204px;
+}
+
+/* Pong */
+div .pong:hover {
+    box-shadow: 0 0px;
+    top: 250px;
+}
+
+div .pong:active {
+    box-shadow: 0 0 #efa424;
+    top: 254px;
+}
+
+/* Rpg */
 div .rpg:hover {
     box-shadow: 0 0px;
     top: 320px;
+}
+
+div .rpg:active {
+    box-shadow: 0 0 #efa424;
+    top: 324px;
 }
