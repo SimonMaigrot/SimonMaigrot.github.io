@@ -82,3 +82,12 @@ a:active {
     box-shadow: 0 0 #efa424;
     top: 6px;
 }
+
+div h2 {
+    color: chocolate;
+    font-size: 8vh;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 600px;
+    font-weight: 900;
+}

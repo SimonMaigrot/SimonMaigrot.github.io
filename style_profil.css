@@ -91,6 +91,7 @@ a:active {
     background-color: rgba(86, 145, 173, 0.283);
     left: 130px;
     top: 650px;
+    border-radius: 100px;
 }
 
 .visage {
@@ -122,4 +123,42 @@ div h3 {
     font-size: 30px;
     left: 500px;
     top: 370px;
+}
+
+/* Réseaux */
+
+#instagram {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 100px;
+    top: 700px;
+}
+
+#instagram:hover {
+    top: 710px;
+}
+
+#facebook {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 550px;
+    top: 700px;
+}
+
+#facebook:hover {
+    top:710px;
+}
+
+#discord {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 1000px;
+    top: 700px;
+}
+
+#discord:hover {
+    top: 710px;
 }
