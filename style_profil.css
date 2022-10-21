@@ -139,6 +139,10 @@ div h3 {
     top: 710px;
 }
 
+#instagram:active {
+    top: 720px;
+}
+
 #facebook {
     position: absolute;
     width: 10%;
@@ -151,6 +155,10 @@ div h3 {
     top:710px;
 }
 
+#facebook:active {
+    top: 720px;
+}
+
 #discord {
     position: absolute;
     width: 10%;
@@ -161,4 +169,25 @@ div h3 {
 
 #discord:hover {
     top: 710px;
+}
+
+#discord:active {
+    top: 720px;
+}
+
+/* Info supp */
+
+h4 {
+    position: absolute; 
+    left: 1300px;
+    font-size: 40px;
+    top: 300px;
+    color: rgb(35, 93, 201);
+}
+
+h5 {
+    position: absolute;
+    left: 1300px;
+    font-size: 40px;
+    color: rgb(35, 93, 201);
 }
