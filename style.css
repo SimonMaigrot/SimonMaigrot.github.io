@@ -75,7 +75,7 @@ body {
         font-family: Itim;
         font-size: 25px;
         margin-right: 70px;
-        transition: 500ms;
+        transition: 400ms;
     }
 
     .nav .contact a:hover {
@@ -86,7 +86,6 @@ body {
     /* Header */
 
     .header {
-        background-color: #aaacb3;
         width: 100%;
         height: 100vh;
     }
@@ -97,24 +96,36 @@ body {
         height: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
-    .profil h2 {
-        color: #cea65f;
-        font-size: 60px;
+    .profil p {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 100px;
         font-family: Prompt;
+        font-weight: 800;
+        color: #cea65f;
+        padding-top: 100px;
+        height: 100px;
     }
 
     .profil h1 {
-        color: white;
-        font-size: 90px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
         font-family: Prompt;
+        color: white;
+        font-size: 70px;
     }
 
-    .profil h3 {
-        color: white;
+    .profil h2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-family: Prompt;
+        color: rgb(172, 172, 172);
     }
 
     .profil a {
@@ -132,4 +143,13 @@ body {
         border: solid;
         border-color: #cea65f;
         margin-left: 60px;
+        transition: 400ms;
+    }
+
+    .profil a:hover {
+        background-color: #cea65f;
+    }
+
+    .profil a:active {
+        background-color: #4e4027;
     }
