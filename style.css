@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -83,11 +87,16 @@ body {
         background-color: rgb(82, 77, 77);
     }
 
+    .nav .contact a:active {
+        background-color: rgb(50, 48, 48);
+    }
+
     /* Header */
 
     .header {
         width: 100%;
         height: 100vh;
+        background-color: #292a2f;
     }
 
     .profil {
@@ -152,4 +161,63 @@ body {
 
     .profil a:active {
         background-color: #4e4027;
+    }
+
+    /* section profil */
+
+    .profill {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* h1 */
+
+    .profill .text {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .profill .text h1 {
+        color: #cea65f;
+        font-family: Prompt;
+        font-size: 80px;
+    }
+
+
+    /* Cases */
+
+    .profill .case_1 {
+        width: 500px;
+        height: 400px;
+        background-color: rgb(172, 172, 172);
+        margin: 50px;
+    }
+
+    .profill .case_2 {
+        width: 500px;
+        height: 400px;
+        background-color: rgb(172, 172, 172);
+        margin: 50px;
+    }
+
+    .profill .case_3 {
+        width: 500px;
+        height: 400px;
+        background-color: rgb(172, 172, 172);
+        margin: 50px;
+    }
+
+    .profill .case_4 {
+        width: 500px;
+        height: 400px;
+        background-color: rgb(172, 172, 172);
+        margin: 50px;
     }
