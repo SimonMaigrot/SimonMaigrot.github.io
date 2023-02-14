@@ -8,49 +8,51 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <!--Accueil-->
-    <section class="accueil">
-        <!--Nav-->
-        <div class="nav">
-            <div class="logo">
-                <img src="assets/logo.jpg">
-            </div>
-            <div class="barre">
-                <ul>
-                    <li><a href="#profil">Profil</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="https://github.com/SimonMaigrot">Github</a></li>
-                </ul>
-            </div>
-            <div class="contact">
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-        <!--Presentation-->
-        <div class="presentation">
-            <p>Bonjour</p>
-            <h1>Je suis Simon MAIGROT</h1>
-            <h2>Développeur Full-Stack / ESNL</h2>
-            <a href="#projets">Mes Projets</a>
-        </div>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <ul>
+            <li><a href="#" class="active">Accueil</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#">Orientation</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="assets/stars.png" id="stars">
+        <img src="assets/moon.png" id="moon">
+        <img src="assets/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Simon Maigrot</h2>
+        <a href="#profil" id="btn">Explore</a>
+        <img src="assets/mountains_front.png" id="mountains_front">
     </section>
-    <!--Profil-->
-    <section class="profil" id="profil">
-        <div class="text">
-            <h1>Mon profil</h1>
-        </div>
-        <div class="case_1">
+    <div class="profil" id="profil">
+        <h2>Profil</h2>
+        <p>Lorem ipsum dolor sit amet conprofiltetur adipisicing elit. Ad nihil odit natus assumenda expedita? Iste doloribus
+            explicabo, debitis saepe optio nam voluptas laboriosam illo. A consequatur quos vitae debitis excepturi. Lorem 
+            ipsum dolor sit amet, consectetur adipisicing elit.<br><br> Molestias recusandae aut architecto 
+            iste porro eum quidem consectetur minus sed neque. Voluptate, accusamus. Labore nostrum voluptates illo quibusdam, 
+            dolorem rerum laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis eius repellendus earum omnis voluptatum? Cupiditate,
+            totam ipsam aut, consequuntur voluptatum commodi hic, enim nisi itaque dolorem aliquam id accusamus earum.</p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
 
-        </div>
-        <div class="case_2">
-
-        </div>
-        <div class="case_3">
-
-        </div>
-        <div class="case_4">
-
-        </div>
-    </section>
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            stars.style.left = value  * 0.25 + 'px';
+            moon.style.top = value  * 1.05 + 'px';
+            mountains_behind.style.top = value  * 0.5 + 'px';
+            mountains_front.style.top = value  * 0 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+            text.style.marginTop = value * 1.05 + 'px';
+        })
+    </script>
 </body>
 </html>
