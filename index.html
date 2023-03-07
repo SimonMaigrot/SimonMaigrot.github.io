@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <ul>
+            <li><a href="#" class="active">Accueil</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#">Orientation</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="assets/stars.png" id="stars">
+        <img src="assets/moon.png" id="moon">
+        <img src="assets/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Simon Maigrot</h2>
+        <a href="#profil" id="btn">Explore</a>
+        <img src="assets/mountains_front.png" id="mountains_front">
+    </section>
+    <div class="profil" id="profil">
+        <h2>Profil</h2>
+        <p>Lorem ipsum dolor sit amet conprofiltetur adipisicing elit. Ad nihil odit natus assumenda expedita? Iste doloribus
+            explicabo, debitis saepe optio nam voluptas laboriosam illo. A consequatur quos vitae debitis excepturi. Lorem 
+            ipsum dolor sit amet, consectetur adipisicing elit.<br><br> Molestias recusandae aut architecto 
+            iste porro eum quidem consectetur minus sed neque. Voluptate, accusamus. Labore nostrum voluptates illo quibusdam, 
+            dolorem rerum laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis eius repellendus earum omnis voluptatum? Cupiditate,
+            totam ipsam aut, consequuntur voluptatum commodi hic, enim nisi itaque dolorem aliquam id accusamus earum.</p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            stars.style.left = value  * 0.25 + 'px';
+            moon.style.top = value  * 1.05 + 'px';
+            mountains_behind.style.top = value  * 0.5 + 'px';
+            mountains_front.style.top = value  * 0 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+            text.style.marginTop = value * 1.05 + 'px';
+        })
+    </script>
+</body>
+</html>
