@@ -131,7 +131,47 @@ section img#mountains_front {
 }
 
 .profil p {
-    font-size: 1.2em;
+    margin-top: 50px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.orientation {
+    position: relative;
+    padding: 100px;
+    background: linear-gradient(#1c0522, #510f61);
+}
+
+.orientation h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.orientation p {
+    margin-top: 50px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.contact {
+    position: relative;
+    padding: 100px;
+    background: linear-gradient(#510f61, #711588);
+}
+
+.contact h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+
+.contact p {
+    margin-top: 50px;
+    font-size: 1.4em;
     margin-bottom: 10px;
     color: #fff
 }
